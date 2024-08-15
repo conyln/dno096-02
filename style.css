@@ -1,57 +1,56 @@
+html,
+body {
+    font-family: Nunito, sans-serif;
+    margin: 0;
+    padding: 0;
+    cursor: "👹";
+}
 
-            html,body {
-                font-family: Nunito, sans-serif;
-                margin: 0;
-                padding: 0;
-                cursor: "A";
-            }
-            
-            canvas {
-                display: block;
-            }
-            
-            header {
-                position: absolute;
-                top: 1rem;
-                left: 3rem;
-                z-index: 2;
-                width:calc(100vw * 0.618);
-            }
+canvas {
+    display: block;
+}
 
-            @media (orientation: landscape){
-                header {
-                    width:calc(100vw * 0.382);                    
-                }
-            }
+header {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    z-index: 2;
+    width: calc(100vw * 0.618);
+}
 
-            p{
-                line-height:1.5;
-            }
+@media (orientation: landscape) {
+    header {
+        width: calc(100vw * 0.382);
+    }
+}
 
-            code{
-                color:#455A64;
-                font-size:1rem;
-            }
-            aside {
-                z-index:2;
-                position: absolute;
-                left:1rem;
-                bottom:1rem;
-            }
-            a{
-                color:white;
-                text-decoration:none;
-                margin-right: 2rem;
+p {
+    line-height: 1.5;
+}
 
-            }
-            a.activo{
-                font-weight: bold;
-                text-decoration: wavy underline;
-            }
-            button{
-                background-color: black;
-                color: white;
-                border: none;
-                padding: 15px 32px;
-                cursor:pointer;
-            }
+code {
+    color: white;
+    font-size: 1rem;
+}
+aside {
+    z-index: 2;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+a.activo {
+    font-weight: bold;
+    text-decoration: wavy underline;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+}
